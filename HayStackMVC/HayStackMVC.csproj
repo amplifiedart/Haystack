@@ -153,6 +153,16 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HS.BusinessLogic\HS.BusinessLogic.csproj">
+      <Project>{42a5cee8-a6b4-421a-a75f-55b7246788ce}</Project>
+      <Name>HS.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HS.Model\HS.Model.csproj">
+      <Project>{a486fc60-d23d-4b19-9bcc-0f651d14b5fd}</Project>
+      <Name>HS.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
