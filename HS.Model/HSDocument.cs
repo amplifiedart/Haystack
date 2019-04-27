@@ -13,6 +13,11 @@ namespace HS.Model
 	/// </summary>
 	public class HSDocument
 	{
+		public HSDocument()
+		{
+			Terms = new HashSet<Term>();
+		}
+
 		/// <summary>
 		/// Unique Identifier of the Document
 		/// </summary>
@@ -27,7 +32,7 @@ namespace HS.Model
 
 		public string Title { get; set; }
 
-		public Company Company { get; set; }
+		public Contact Company { get; set; }
 
 		public DateTime EntryDate { get; set; }
 

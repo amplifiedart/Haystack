@@ -1,17 +1,27 @@
-﻿
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>_masterView</title>
+	<meta name="viewport" content="width=device-width" />
+	<title>@ViewBag.Title</title>
+	<link href="~/css/metro-all.min.css" rel="stylesheet" />
+	<link href="~/css/metro-colors.min.css" rel="stylesheet" />
+	<link href="~/css/metro-icons.min.css" rel="stylesheet" />
+	<link href="~/css/metro-rtl.min.css" rel="stylesheet" />
+	<link href="~/css/metro.min.css" rel="stylesheet" />
+	<link href="~/css/schemes/darcula.min.css" rel="stylesheet" />
+	<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+	<script src="~/Scripts/metro.min.js"></script>
 </head>
 <body>
-    <div> 
-    </div>
+	<div class="pos-fixed fixed-top app-bar-expand-lg" data-role="appbar">
+		<button class="button"
+				id="sidebar-toggle-2">
+			<span class="mif-menu"></span>
+		</button>
+		<a href="/" class="app-bar-item"><span class="mif-home p-2"></span>home</a>
+		<a href="/document" class="app-bar-item"><span class="mif-file-text p-2"></span>documents</a>
+	</div>
+	@RenderBody()
 </body>
 </html>

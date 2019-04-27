@@ -1,6 +1,7 @@
 ﻿namespace HS.Model
 {
-	public class Company
+	public class Contact
 	{
+
 	}
 }

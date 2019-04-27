@@ -1,0 +1,23 @@
+﻿@{
+	Layout = "~/Views/_masterView.cshtml";
+}
+
+
+<aside class="sidebar pos-absolute z-2 pt-13" data-role="sidebar" data-toggle="#sidebar-toggle-2">
+	<div class="sidebar-header bg-darkBlue">
+		<div class="avatar">
+			<img data-role="gravatar" data-email="amplifiedart@gmail.com">
+		</div>
+		<span class="title">HayStack version 1.00</span>
+		<span class="subtitle"> 2018 © Arjo Kalisvaart</span>
+	</div>
+	<ul class="sidebar-menu">
+		<li><a href="/document/create"><span class="mif-home icon"></span>Create New</a></li>
+		<li><a href="/document/index"><span class="mif-books icon"></span>Documents List</a></li>
+		<li class="divider"></li>
+		<li><a href="/home/about"><span class="mif-question icon"></span>About</a></li>
+	</ul>
+</aside>
+<div class="pt-13">
+	@RenderBody()
+</div>

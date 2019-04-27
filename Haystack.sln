@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayStackMVC", "HayStackMVC\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayStackMVC.Tests", "HayStackMVC.Tests\HayStackMVC.Tests.csproj", "{C072CAC8-A00F-4599-AC82-9DF9CBF15722}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS.Common", "HS.Common\HS.Common.csproj", "{6C41F57F-27B3-4C24-87F5-888B405544A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C072CAC8-A00F-4599-AC82-9DF9CBF15722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C072CAC8-A00F-4599-AC82-9DF9CBF15722}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C072CAC8-A00F-4599-AC82-9DF9CBF15722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C41F57F-27B3-4C24-87F5-888B405544A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C41F57F-27B3-4C24-87F5-888B405544A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C41F57F-27B3-4C24-87F5-888B405544A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C41F57F-27B3-4C24-87F5-888B405544A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

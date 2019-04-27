@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HS.DataLayer
+namespace HS.Common
 {
-    public class Class1
+    public interface IStrongHash
     {
+		object GetHash();
+		
+
     }
 }
